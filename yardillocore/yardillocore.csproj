@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Models\DatabaseSettings.cs~RF7a3101.TMP" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
+    <PackageReference Include="MongoDB.Bson" Version="2.13.2" />
+    <PackageReference Include="MongoDB.Bson.Path" Version="1.0.5" />
+    <PackageReference Include="MongoDB.Driver" Version="2.13.2" />
+    <PackageReference Include="MongoDB.Driver.Core" Version="2.13.2" />
+  </ItemGroup>
+
+</Project>
